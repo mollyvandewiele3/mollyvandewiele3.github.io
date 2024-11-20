@@ -1,0 +1,112 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: mintcream;
+    margin-bottom: 60px;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+
+.heading-dark-blue {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 2rem; 
+}
+
+.subheading-light-blue {
+    color: lightblue;
+    font-size: 1rem; 
+    margin-top: 10px;
+}
+
+
+.light-blue-text {
+    color: lightblue;
+    font-size: 1rem; 
+}
+
+.degree-info {
+    padding-left: 20px;
+}
+
+.custom-navbar 
+{
+    background-color: mintcream; 
+    border-bottom: 1px solid #dcdcdc; 
+}
+
+.custom-navbar .nav-link 
+{
+     color: darkblue; 
+     font-weight: bold; 
+     padding: 10px; 
+     transition: color 0.3s ease; 
+}
+
+.custom-navbar .nav-link:hover
+{
+    color: #2e8b57; 
+}
+
+.custom-navbar .nav-link.active 
+{
+    color: darkblue; 
+    text-decoration: underline; 
+}
+
+.heading-dark-blue {
+    color: darkblue; 
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.light-blue-text {
+    color: lightblue; 
+    font-size: 1rem;
+    line-height: 1.5; 
+}
+
+.skill-dark-blue {
+    color: darkblue; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.skill-card {
+    border: 1px solid #dcdcdc; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+    .skill-card:hover {
+        transform: scale(1.05); 
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
